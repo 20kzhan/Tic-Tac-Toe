@@ -9,7 +9,7 @@
 #
 # Return: Nothing
 #
-#
+# Special characters: | -
 def print_board(gb):
 
     
