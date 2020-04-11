@@ -22,10 +22,10 @@ def disp_game_over(gt, winner):
 
 # Heuristic based AI move
 # inputs:
-#   gt: game table
+#   gt: game board
 # returns:
 #   the best move a tuple (row, col)
-def ai_next_move_heuristic(gt):
+def ai_next_move_heuristic(gb):
     return (0,0)
 
 # This procedure checks if the game is over
