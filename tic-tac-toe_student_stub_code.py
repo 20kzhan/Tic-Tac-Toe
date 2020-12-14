@@ -21,16 +21,7 @@ def print_board(gb):
     
 # This procedure checks if the game is over
 # returns a Bool type and the player who won:
-#   True/False indicating if the game is over
-#   The winner (value of 1 or 2) or 0 for tie
-#
-# Input:
-#   gb: game board (a two dimensional list)
-#
-# Return:
-#   Bool, Winner: Winner can be represented by 'X', 'O' or 1, 2 depending on
-#                   how you want to represent each player, and need another
-#                   symbol for a tie
+
 def check_game_over(gb):
     return True, 0      # Game over, we have a tie
     # return True, 1    # Game over, 'O' won
